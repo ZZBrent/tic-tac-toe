@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+}
+
+#settings {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+#nameContainer {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.setting {
+    padding: 35px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#o {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.btn-success {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#tic-tac-toe-container {
+    width: 359px;
+    height: 314px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spot {
+    display: block;
+    width: 119px;
+    height: 104px;
+    font-size: 75px;
+    text-align: center;
+    background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#DCDCDC');
+    cursor: default;
+    cursor: pointer;
+    color: black;
+}
+
+#line1 {
+    border-right: 1px solid black;
+}
+
+#line3 {
+    border-left: 1px solid black;
+}
+
+#spot1, #spot4, #spot7 {
+    border-bottom: 1px solid black;
+}
+
+#spot3, #spot6, #spot9 {
+    border-top: 1px solid black;
+}
+
+#full-container {
+    width: 420px;
+    height: 375px;
+    background-color: gray;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 8%;
+}
+
+#newGameContainer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.names1, .names2 {
+    margin: -20px;
+    visibility: hidden;
+}
